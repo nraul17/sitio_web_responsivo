@@ -218,4 +218,100 @@ footer p {
   margin: 0;
   padding: 12px;
   text-align: center;
+} 
+
+/*De aqui en adelante viene la optimizacion para pantallas de escritorio,estableciendo el ancjo minimo de la pantalla en 720px */
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header .contenedor {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+  }
+
+  #somos-proya .contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #somos-proya #img-container {
+    background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5)
+      )
+      ,url(/pictures/somos-proya.jpg);
+      background-position: center center;
+      background-size: cover;
+      height: 500px;
+      width: 400px;
+  }
+
+  #somos-proya .texto {
+    width: 50%;
+    max-width: 600px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #nuestros-programas .programas {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #nuestros-programas p {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #nuestros-programas h3 {
+    margin-top: 0;
+  }
+
+  #nuestros-programas .carta {
+    padding: 50px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+  }
+
+  .carta:nth-child(2) {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #nuestros-programas h2 {
+    margin-bottom: 30px;
+  }
+
+  #caracteristicas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+ 
+  #caracteristicas .img-container2 {
+      background-image: url(/pictures/background-2.jpeg);
+      background-position: center center;
+      background-size: cover;
+      height: 500px;
+      width: 400px;
+  }
+
+  #caracteristicas .contenedor {
+    text-align: initial;
+    margin: 50px;
+  }
 }
