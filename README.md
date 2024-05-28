@@ -3,7 +3,10 @@
 **Descripción del proyecto**
 
 Este proyecto consiste en el desarrollo de un sitio web responsivo utilizando únicamente HTML5 y CSS. El objetivo es crear un sitio web que se adapte a diferentes tamaños de pantalla, desde dispositivos móviles hasta computadoras de escritorio, sin necesidad de utilizar frameworks o bibliotecas adicionales.
+<<<<<<< HEAD
 En esta ocasión, haremos que en los dispositivos móviles se muestre el menú de navegación en forma de "hamburguesa" y que llame un menú emergente que ocupe toda la pantalla del celular.
+=======
+>>>>>>> 49781ff2c2083c3725c74a6d90057829e84884a8
 
 **Tecnologías utilizadas**
 
